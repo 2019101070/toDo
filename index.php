@@ -36,8 +36,7 @@ require 'db_connect.php';
             <?php if($todos->rowCount() <= 0){ ?>
                 <div class="todo-item">
                     <div class="empty">
-                        <img src="img/f.png" width="100%" />
-                        <img src="img/Ellipsis.gif" width="80px">
+                        <img src="img/todo.gif" width="100%" />
                     </div>
                 </div>
             <?php } ?>
